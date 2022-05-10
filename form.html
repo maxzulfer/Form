@@ -9,40 +9,53 @@
 </head>
 <body>
     <div class="container">
-        <div class="header">
-            <h2>Creat Account</h2>
+        <div class="information">
+            <h2>Information</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet maiores nobis quasi. Sapiente quos autem veritatis possimus. Perferendis maxime dolorem, omnis quo at ducimus suscipit ab necessitatibus, consequatur ullam quod?</p>
+            <p><strong>Lorem ipsum: </strong>dolor sit amet consectetur adipisicing elit. Consequuntur fugiat obcaecati ex laboriosam adipisci quae cumque, vitae veritatis alias provident.</p>
+            <button>Have An Account</button>
         </div>
-        <div class="form" id="form">
-            <div class="form-control">
-                <label for="username">Username</label>
-                <input type="text" placeholder="mzulf" id="username">
-                <i class="fas fa-check-circle" style="color: green;"></i>
-                <i class="fas fa-exclamation" style="color: red;"></i>
-                <small>Error Message</small>
+        <form class="form-container">
+            <div class="header">
+                <h2>Creat Account</h2>
             </div>
-            <div class="form-control">
-                <label for="email">Email</label>
-                <input type="email" placeholder="mzulf@gmail.com" id="email">
-                <i class="fas fa-check-circle" style="color: green;"></i>
-                <i class="fas fa-exclamation" style="color: red;"></i>
-                <small>Error Message</small>
+            <div class="form">
+                <div class="form-control">
+                    <label for="username">Username</label>
+                    <input type="text" placeholder="Username" id="username" required>
+                    <i class="fas fa-check-circle" style="color: green;"></i>
+                    <i class="fas fa-exclamation" style="color: red;"></i>
+                    <small>Error Message</small>
+                </div>
+                <div class="form-control">
+                    <label for="email">Email</label>
+                    <input type="email" placeholder="example@gmail.com" id="email" required>
+                    <i class="fas fa-check-circle" style="color: green;"></i>
+                    <i class="fas fa-exclamation" style="color: red;"></i>
+                    <small>Error Message</small>
+                </div>
+                <div class="form-control">
+                    <label for="password">Password</label>
+                    <input type="password" placeholder="Password" id="password" required>
+                    <i class="fas fa-check-circle" style="color: green;"></i>
+                    <i class="fas fa-exclamation" style="color: red;"></i>
+                    <small>Error Message</small>
+                </div>
+                <div class="form-control">
+                    <label for="password two">Confirm Password</label>
+                    <input type="password" placeholder="Password" id="password two" required>
+                    <i class="fas fa-check-circle" style="color: green;"></i>
+                    <i class="fas fa-exclamation" style="color: red;"></i>
+                    <small>Error Message</small>
+                </div>
+                <div class="terms">
+                    <input type="checkbox" name="confirm" id="confirm" required>
+                    <label for="confirm">I agree to the <a href="#">Terms and Conditions</a> </label>
+                </div>
+                <button type="submit">Register</button>
+                <button type="reset">Reset</button>
             </div>
-            <div class="form-control">
-                <label for="password">Password</label>
-                <input type="password" placeholder="Password" id="password">
-                <i class="fas fa-check-circle" style="color: green;"></i>
-                <i class="fas fa-exclamation" style="color: red;"></i>
-                <small>Error Message</small>
-            </div>
-            <div class="form-control">
-                <label for="password two">Password Check</label>
-                <input type="password" placeholder="password" id="password two">
-                <i class="fas fa-check-circle" style="color: green;"></i>
-                <i class="fas fa-exclamation" style="color: red;"></i>
-                <small>Error Message</small>
-            </div>
-            <button type="submit">submit</button>
-        </div>
-    </div>
+        </form>
+    </div>   
 </body>
 </html>
